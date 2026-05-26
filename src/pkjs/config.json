@@ -1,0 +1,30 @@
+[
+  { "type": "heading", "defaultValue": "Fox Weather" },
+  {
+    "type": "section",
+    "items": [
+      { "type": "heading", "defaultValue": "Units" },
+      {
+        "type": "select",
+        "messageKey": "UNIT",
+        "defaultValue": "0",
+        "label": "Temperature unit",
+        "options": [
+          { "label": "Fahrenheit (°F)", "value": "0" },
+          { "label": "Celsius (°C)", "value": "1" }
+        ]
+      },
+      {
+        "type": "select",
+        "messageKey": "FOX_MODE",
+        "defaultValue": "0",
+        "label": "Fox",
+        "options": [
+          { "label": "Idle", "value": "0" },
+          { "label": "Walking", "value": "1" }
+        ]
+      }
+    ]
+  },
+  { "type": "submit", "defaultValue": "Save" }
+]

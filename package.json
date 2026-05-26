@@ -1,0 +1,151 @@
+{
+  "name": "pebble-adventure-wf",
+  "author": "eX",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app",
+    "watchface"
+  ],
+  "private": true,
+  "dependencies": {
+    "@rebble/clay": "^1.0.10"
+  },
+  "pebble": {
+    "displayName": "Fox Weather",
+    "uuid": "de03aa44-9778-4440-8378-f8688f241bf4",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery",
+      "flint"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "location",
+      "configurable"
+    ],
+    "messageKeys": [
+      "TEMPERATURE",
+      "WEATHER_CODE",
+      "UNIT",
+      "REQUEST_WEATHER",
+      "FOX_MODE"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "png",
+          "name": "IMAGE_MENU_ICON",
+          "file": "images/app_icon.png",
+          "menuIcon": true
+        },
+        {
+          "type": "png",
+          "name": "FOX_LG_IDLE_0",
+          "file": "images/sprites/fox/large/fox_lg_idle_0.png"
+        },
+        {
+          "type": "png",
+          "name": "FOX_LG_IDLE_1",
+          "file": "images/sprites/fox/large/fox_lg_idle_1.png"
+        },
+        {
+          "type": "png",
+          "name": "FOX_LG_IDLE_2",
+          "file": "images/sprites/fox/large/fox_lg_idle_2.png"
+        },
+        {
+          "type": "png",
+          "name": "FOX_LG_IDLE_3",
+          "file": "images/sprites/fox/large/fox_lg_idle_3.png"
+        },
+        {
+          "type": "png",
+          "name": "FOX_LG_WALK_0",
+          "file": "images/sprites/fox/large/fox_lg_walk_0.png"
+        },
+        {
+          "type": "png",
+          "name": "FOX_LG_WALK_1",
+          "file": "images/sprites/fox/large/fox_lg_walk_1.png"
+        },
+        {
+          "type": "png",
+          "name": "FOX_LG_WALK_2",
+          "file": "images/sprites/fox/large/fox_lg_walk_2.png"
+        },
+        {
+          "type": "png",
+          "name": "FOX_LG_WALK_3",
+          "file": "images/sprites/fox/large/fox_lg_walk_3.png"
+        },
+        {
+          "type": "png",
+          "name": "BG_PLAINS",
+          "file": "images/backgrounds/color/bg_plains.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "BG_PLAINS",
+          "file": "images/backgrounds/bw/bg_plains_bw.png",
+          "targetPlatforms": [
+            "flint"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "BG_FOREST",
+          "file": "images/backgrounds/color/bg_forest.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "BG_FOREST",
+          "file": "images/backgrounds/bw/bg_forest_bw.png",
+          "targetPlatforms": [
+            "flint"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "BG_STORM",
+          "file": "images/backgrounds/color/bg_storm.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "BG_STORM",
+          "file": "images/backgrounds/bw/bg_storm_bw.png",
+          "targetPlatforms": [
+            "flint"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "BG_MOUNTAIN",
+          "file": "images/backgrounds/color/bg_mountain.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "BG_MOUNTAIN",
+          "file": "images/backgrounds/bw/bg_mountain_bw.png",
+          "targetPlatforms": [
+            "flint"
+          ]
+        }
+      ]
+    }
+  }
+}
