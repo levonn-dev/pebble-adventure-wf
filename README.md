@@ -139,3 +139,19 @@ Leave `WF_DEBUG 0` for release builds.
 - Backgrounds, fox sprites, and weather-effect code adapted from **Pebble Adventure**.
 - Weather data from **[Open-Meteo](https://open-meteo.com/)**.
 - Settings via **[Clay](https://github.com/pebble-dev/clay)**.
+
+---
+
+## License
+
+Fox Weather uses a split license, matching the [Pebble Adventure](https://github.com/levonn-dev/pebble-adventure) project it is adapted from:
+
+- **Code** (everything under `src/`, `tools/`, `test/`, plus build files) is licensed under the
+  **GNU General Public License v3.0**. See [`LICENSE`](LICENSE).
+- **Art and other creative assets** (everything under `resources/`, `screenshots/`, and `docs/`) is
+  licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**
+  (CC BY-NC-SA 4.0). See [`LICENSE-ASSETS`](LICENSE-ASSETS).
+
+In short: you are welcome to fork, learn from, and build on the code under GPL-3.0 terms, but the
+pixel art and screenshots may not be used in commercial works without permission. The backgrounds
+and fox sprites are reused from Pebble Adventure under those same CC BY-NC-SA 4.0 terms.

@@ -2,6 +2,7 @@
   "name": "pebble-adventure-wf",
   "author": "eX",
   "version": "1.0.0",
+  "license": "GPL-3.0-only",
   "keywords": [
     "pebble-app",
     "watchface"
