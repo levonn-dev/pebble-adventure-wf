@@ -1,3 +1,5 @@
+![Fox Weather](docs/logo.png)
+
 # Fox Weather
 
 **A Pebble watchface where the sky follows your weather and a pixel fox keeps you company.**
@@ -40,13 +42,13 @@ changes with the weather):
   <tr><th></th><th>Idle fox</th><th>Walking fox</th></tr>
   <tr>
     <td align="right"><b>Emery</b><br><sub>color, 200×228</sub></td>
-    <td><img src="pebble_screenshot_emery_0.png" width="180" alt="Emery idle fox"></td>
-    <td><img src="pebble_screenshot_emery_1.png" width="180" alt="Emery walking fox"></td>
+    <td><img src="screenshots/pebble_screenshot_emery_0.png" width="180" alt="Emery idle fox"></td>
+    <td><img src="screenshots/pebble_screenshot_emery_1.png" width="180" alt="Emery walking fox"></td>
   </tr>
   <tr>
     <td align="right"><b>Flint</b><br><sub>B&amp;W, 144×168</sub></td>
-    <td><img src="pebble_screenshot_flint_0.png" width="150" alt="Flint idle fox"></td>
-    <td><img src="pebble_screenshot_flint_1.png" width="150" alt="Flint walking fox"></td>
+    <td><img src="screenshots/pebble_screenshot_flint_0.png" width="150" alt="Flint idle fox"></td>
+    <td><img src="screenshots/pebble_screenshot_flint_1.png" width="150" alt="Flint walking fox"></td>
   </tr>
 </table>
 
